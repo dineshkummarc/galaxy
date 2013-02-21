@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Adam Becker ... in a galaxy far, far away</title>
+
+		<script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+		<script type="text/javascript" src="jquery.easing.js"></script>
+		<script type="text/javascript" src="jquery.bgpos.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.7.2.spritely.custom.min.js"></script>
+		<script type="text/javascript" src="jquery.spritely-0.2.js"></script>
+		<script type="text/javascript" src="jquery.scrollto-min.js"></script>
+		<script type="text/javascript" src="cufon.js"></script>
+		<script type="text/javascript" src="dejavu.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+
+		<link type="text/css" href="main.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="spaceship"></div>
+			<div id="header">
+				<h1>Adam Becker</h1>
+				<div id="mainMenu">
+					<ul>
+						<li><a href="#about" id="btnAbout">About</a></li>
+						<li><a href="#how" id="btnHow">How it Works</a></li>
+						<li><a href="#contact" id="btnContact">Contact</a></li>
+						<li><a href="#credits" id="btnCredits">Credits</a></li>
+					</ul>
+					<img src="gear.png" alt="Config" id="configBtn" />
+				</div>
+			</div>
+			<div id="configWindow">
+				<div class="close">
+					<a href="#" id="closeConfigBtn">Close Config Window</a>
+				</div>
+				<div class="option">
+					<div class="toggle" id="starToggle"></div>
+					<div class="label" id="starLabel">Star movement</div>
+				</div>
+				<div class="clearBoth"></div>
+				<div class="option">
+					<div class="toggle" id="spaceshipToggle"></div>
+					<div class="label" id="spaceshipLabel">Spaceship hover</div>
+				</div>
+			</div>
+			<div id="starMap"></div>
+			<div id="alien"></div>
+			<div id="solarSystem">
+				<div class="planet" id="ssEarth"></div>
+				<div class="planet" id="ssJupiter"></div>
+				<div class="planet" id="ssMars"></div>
+				<div class="planet" id="ssMoon"></div>
+				<div class="planet" id="ssPluto"></div>
+				<div class="planet" id="ssSaturn"></div>
+				<div class="planet" id="ssSun"></div>
+			</div>
+			<div id="pageHome" class="page">
+				<div id="pageHomeContent" class="content">
+					<h2><a name="home">welcome to to my galaxy</a></h2>
+					<div class="contentInner">
+						<p class="large">
+							Simply click on the menu items above to zoom around my universe and learn
+							more about web animations without the use of Flash.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="pageAbout" class="page">
+				<div id="pageAboutContent" class="content">
+					<h2><a name="about">About This Website</a></h2>
+					<div class="contentInner">
+						<p>
+							For the purpose of learning more about non-Flash web animation, I made this website
+							as a simple idea of what can be done without Flash. This website utilizes jQuery,
+							some jQuery plugins and my custom jQuery code to give you this visual experience.
+						</p>
+						<p>
+							This website is aimed at people some-what familiar with HTML, CSS and JavaScript.
+							Although you won't find any code displayed on the page, please look at the source
+							if you are more interested in how things work.
+						</p>
+						<p>
+							This website is fully compliant with web standards
+							(<a href="http://validator.w3.org/check?uri=referer" target="standards">HTML</a> &
+							<a href="http://jigsaw.w3.org/css-validator/check/referer" target="standards">CSS</a>).
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="pageHow" class="page">
+				<div id="pageHowContent" class="content">
+					<h2><a name="how">How it Works</a></h2>
+					<div class="contentInner">
+						<p>
+							This website leans on JavaScript to produce that animations. More specifically, this
+							website uses the jQuery JavaScript library. jQuery describes itself as, "The Write
+							Less, Do More, JavaScript Library," and it lives up to that description.
+						</p>
+						<p>
+							See for yourself by looking at the <a href="main.js">main JavaScript file</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="pageContact" class="page">
+				<div id="pageContactContent" class="content">
+					<h2><a name="contact">Contact</a></h2>
+					<div class="contentInner">
+						<p>
+							Please head over to my main website/blog if you want to contact me.
+						</p>
+						<p>
+							<a href="http://adambecker.info">My website</a>
+						</p>
+						<p>
+							<a href="http://adambecker.info/contact-me">My contact form</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="pageCredits" class="page">
+				<div id="pageCreditsContent" class="content">
+					<h2><a name="credits">Credits</a></h2>
+					<div class="contentInner">
+						<ul>
+							<li>
+								<a href="http://www.jquery.com" target="credits">jQuery</a>
+							</li>
+							<li>
+								<a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="credits">jQuery easing</a>
+							</li>
+							<li>
+								<a href="http://www.spritely.net/" target="credits">Spritely</a>
+							</li>
+							<li>
+								<a href="http://flesler.blogspot.com/2007/10/jqueryscrollto.html" target="credits">jQuery Scroll To</a>
+							</li>
+							<li>
+								<a href="http://code.google.com/p/exteenscript/downloads/detail?name=jquery.bgpos.js&amp;can=2" target="credits">jQuery BGPOS</a>
+							</li>
+							<li>
+								<a href="http://cufon.shoqolate.com/generate/" target="credits">Cufon</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

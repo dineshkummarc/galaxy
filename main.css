@@ -1,0 +1,319 @@
+#alien
+{
+	position: fixed;
+	z-index: 25;
+	top: 100px;
+	left: -128px;
+	width: 128px;
+	height: 128px;
+	background: transparent url('alien_1.png') top left no-repeat;
+}
+
+body
+{
+	background: #000000 url('stars.png') top left repeat;
+}
+
+.clearBoth
+{
+    clear: both;
+}
+
+#configBtn
+{
+    cursor: pointer;
+}
+
+#configWindow
+{
+    width: 250px;
+    height: 130px;
+    position: fixed;
+    top: -220px;
+    left: 50%;
+    margin-left: -125px;
+    z-index: 20;
+    background: transparent url('config_bg.png') bottom left no-repeat;
+}
+
+#configWindow div.close
+{
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+#configWindow div.close a, #configWindow div.close a:visited
+{
+	display: block;
+	color: #3399ff;
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+
+#configWindow div.close a:hover
+{
+	color: #ffffff;
+}
+
+#configWindow div.option
+{
+    margin: 10px 20px 10px 20px;
+}
+
+#configWindow div.option div.toggle
+{
+    float: left;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    background: transparent url('config_toggle.png') 0px -25px no-repeat;
+    cursor: pointer;
+}
+
+#configWindow div.option div.label
+{
+    float: left;
+    margin-left: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: arial;
+    padding-top: 3px;
+}
+
+#container
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000000 url('stars.png') top left repeat;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.content
+{
+	position: fixed;
+	top: 15%;
+	left: 50%;
+	margin-left: -300px;
+	width: 600px;
+	height: 400px;
+    z-index: 15;
+    background: transparent url('page.png') top left no-repeat;
+    display: none;
+}
+
+.content h2
+{
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.3em;
+    text-transform: lowercase;
+}
+
+.contentInner
+{
+	color: #ffffff;
+	padding: 0px 30px 15px 30px;
+}
+
+.contentInner a, .contentInner:visited
+{
+	color: #3399ff;
+	border-bottom: 1px solid #fe8432;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.contentInner a:hover
+{
+	border-bottom: 2px solid #fe8432;
+}
+
+#header
+{
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -480px;
+	height: 120px;
+	width: 960px;
+	z-index: 20;
+	background: transparent url('header.png') top left no-repeat;
+	
+}
+
+#header h1
+{
+	text-indent: -999em;
+	overflow: hidden;
+	float: left;
+}
+
+#mainMenu
+{
+	float: right;
+}
+
+#mainMenu ul
+{
+	margin: 0px;
+	width: 500px;
+	padding: 10px 0px 0px 0px;
+}
+
+#mainMenu ul li
+{
+	display: block;
+	float: left;
+}
+
+#mainMenu ul li a, #mainMenu ul a:visited
+{
+	display: block;
+	padding: 10px;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "Trebuchet MS";
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#mainMenu ul li a:hover
+{
+	color: #3399ff;
+}
+
+#spaceship
+{
+	width: 400px;
+	height: 220px;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -500px;
+	z-index: 20;
+	background: transparent url('spaceship.png') 0px 0px no-repeat;
+}
+
+#starMap
+{
+	width: 10000px;
+	height: 10000px;
+	background: transparent url('stars.png') top left repeat;
+	position: relative;
+}
+
+
+p
+{
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+p.large
+{
+	font-size: 1.6em;
+}
+
+.page
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+    /*background: transparent url('page.png') 50% 30% no-repeat*/;
+}
+
+#pageAbout
+{
+	top: 7000px;
+	left: 7000px;
+}
+
+#pageContact
+{
+    top: 1000px;
+    left: 6000px;
+}
+
+#pageHow
+{
+    top: 6000px;
+    left: 1000px;
+}
+
+#pageCredits
+{
+    top: 2000px;
+    left: 3000px;
+}
+
+.planet
+{
+	position: absolute;
+	z-index: 9;
+}
+
+#ssEarth
+{
+	top: 400px;
+	left: -50px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("earth.png") top left no-repeat;
+}
+#ssJupiter
+{
+	top: 6600px;
+	left: 4000px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("jupiter.png") top left no-repeat;
+}
+#ssMars
+{
+	top: 3000px;
+	left: 3400px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("mars.png") top left no-repeat;
+}
+#ssMoon
+{
+	top: 300px;
+	left: 100px;
+	width: 32px;
+	height: 32px;
+	background: transparent url("moon.png") top left no-repeat;
+}
+#ssPluto
+{
+	top: 1500px;
+	left: 5000px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("pluto.png") top left no-repeat;
+}
+#ssSaturn
+{
+	top: 4000px;
+	left: 6700px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("saturn.png") top left no-repeat;
+}
+#ssSun
+{
+	top: 3200px;
+	left: 4000px;
+	width: 256px;
+	height: 256px;
+	background: transparent url("sun.png") top left no-repeat;
+}
